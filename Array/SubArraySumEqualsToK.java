@@ -1,3 +1,5 @@
+// Count the number of SubArray whose sum equals to given k.
+
 import java.util.*;
 class SubarraySumEqualsToK
 {

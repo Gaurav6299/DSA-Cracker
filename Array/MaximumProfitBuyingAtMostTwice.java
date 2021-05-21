@@ -1,5 +1,5 @@
 //Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
-
+//That means traders buy and sell multiple times..
 class MaximumProfitBuyingAtMostTwice
 {
     static int buyingAtMostTwice(int a[],int n)
