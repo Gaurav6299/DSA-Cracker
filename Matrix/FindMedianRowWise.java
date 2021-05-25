@@ -35,7 +35,7 @@ class FindMedianRowWise
 
 
     //===============Second Method================ 
-    // T(c)=o(r*log(r))
+    // T(c)=o(r*log(c))
     // space =o(1)
     int min=Integer.MAX_VALUE;
     int max=Integer.MIN_VALUE;
