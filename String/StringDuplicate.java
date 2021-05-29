@@ -5,11 +5,9 @@
 import java.util.*;
 class StringDuplicate
 {
-    static void findDup(String s)
     {
         //========= First Method============
         // T(c)=o(n)
-        // space=o(n)
         // Map<Character,Integer> m=new HashMap<>();
         // for(int i=0;i<s.length();i++)
         // {

@@ -1,5 +1,5 @@
 // Given an n x n matrix mat[n][n] of integers, find the maximum value of mat(c, d) – mat(a, b) over all choices of indexes such that both c > a and d > b.
-// T(c)=o(n^4) neary equals to o(n^2)
+// T(c)=o(n^4) nearly equals to o(n^2)
 class MaximumValue
 {
     static int maxValue(int a1[][],int N)
