@@ -1,4 +1,4 @@
-// Find the longest Repeating Subsequence in a String..Two subsequence have the same character but should not present in the same position.
+// Find the length of the longest Repeating Subsequence in a String..Two subsequence have the same character but should not present in the same position.
 // T(c)=n(n^2)
 // Space=o(n^2)
 class LongestRepeating

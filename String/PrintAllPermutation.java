@@ -3,7 +3,6 @@
 // Note there are n! permutations and it requires to print a number in o(n) time.
 
 import java.util.*;
-class PrintAllPermutation
 {
     static List<String> l1=new ArrayList<>();
     static List<String> printPermutation(String s,int l,int r)
