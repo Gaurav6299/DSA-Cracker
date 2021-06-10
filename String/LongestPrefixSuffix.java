@@ -1,4 +1,4 @@
-// find the length of the longest prefix which is also a suffix.here prefix and suffix and also overlap.
+// find the length of the longest prefix which is also a longest suffix.here prefix and suffix are also overlap.
 // This algo are also known as Knuth-Morries-pratt algorithm
 // T(c)=o(n)
 // space=o(n)
@@ -23,8 +23,10 @@ class LongestPrefixSuffix
                 i=a[i-1];
 
                 else
+                {
                 a[j]=0;
                 j++;
+                }
             }
         }
         return a[n-1];
