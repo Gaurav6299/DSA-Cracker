@@ -10,7 +10,7 @@ class WordBreak
     static int word(String s,ArrayList<String> l)
     {
         if(l.contains(s))
-        return 1;
+        return 1; 
 
         if(m.containsKey(s))
         return m.get(s);

@@ -16,6 +16,7 @@ class ConvertIntToRoman
         m.put("X",10);
         m.put("IX",9);
         m.put("V",5);
+        m.put("IV",4);
         m.put("I",1);
 
         StringBuilder sb=new StringBuilder();
@@ -33,7 +34,7 @@ class ConvertIntToRoman
 
     public static void main(String args[])
     {
-        int n=16;
+        int n=4;
         System.out.println("Convert Integer to Roman:"+convertRoman(n));
 
     }
