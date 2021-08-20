@@ -1,4 +1,5 @@
 // Find the pair whose xor value is minimum.Find that xor value.
+// T(c)=0(n)
 import java.util.*;
 class MinXorValue
 {

@@ -27,7 +27,7 @@ public class BinaryGap {
 
              ans=Math.max(ans, i-j);
              j=i;
-            }
+            } 
 
         }
         return ans;

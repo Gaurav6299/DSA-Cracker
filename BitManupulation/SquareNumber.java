@@ -20,7 +20,7 @@ class SquareNumber
         if(n<0)
         n=-n;
 
-        int x=n>>1;
+        int x=n>>1;      //here n>>1 means divide the number by 2.
         if(n%2!=0)
         return((findSquare(x)<<2)+(x<<2)+1);
         else
